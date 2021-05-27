@@ -7,11 +7,7 @@ public class NamesHUD : MonoBehaviour
 {
     public Transform objetivo;
     public float velocidad = 10.0f;
-    public GameObject NameTag;
-
-    //var managerFx = GameObject.Find("ManagerAudio");
-    //var manager = managerFx.GetComponent<FxSonidoManager>();
-    //manager.PlaySonido(sonidoExplosion, transform.position);
+    public GameObject nameTag;
 
     void Start()
     {

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LogicaPlayer : MonoBehaviour
 {
@@ -11,6 +12,14 @@ public class LogicaPlayer : MonoBehaviour
     public float velocidadLineal = 1.5f;
     public float velocidadRotacion = 1.0f;
 
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //  if (other.CompareTag("Arbusto"))
+    //  {
+    //      var name = GameObject.Find("InGameHud");
+    //      var plate = name.GetComponent<NamesHUD>();     
+    //  }
+    //}
     void Start()
     {
         rb = GetComponent<Rigidbody>();
